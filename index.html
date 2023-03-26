@@ -2,18 +2,60 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <title>Momentum App</title>
     </head>
     <body>
-        <div id="weather">
-            <span></span>
-            <span></span>
+        <div id="container1">
+            <div id="clock">
+                <span id="date"></span><br>
+                <span id="time"></span>
+            </div>
+            <div id="quote">
+            </div>
+            <div id="weather">
+                <span></span><br>
+                <span></span>
+            </div>
         </div>
-        <h1 id="clock">00:00</h1>
-        <form id="login-form" class="hidden">
+        <div id="container2">
+            <div class="item"></div>
+            <div class="item">
+                <img src="/img/benchpress.jpg" height="100" width="150"><br>
+                <span>Bench Press</span>
+            </div>
+            <div class="item">
+                <img src="/img/deadlift.jpg" height="100" width="150"><br>
+                <span>Dead Lift</span>
+            </div>
+            <div class="item">
+                <img src="/img/squat.jpg" height="100" width="150"><br>
+                <span>Squat</span>
+            </div>
+            <div class="item">
+                <img src="/img/overheadpress.jpg" height="100" width="150"><br>
+                <span>Overhead Press</span>
+            </div>
+            <div class="item">
+                <img src="/img/berbellrow.jpg" height="100" width="150"><br>
+                <span>Berbell Row</span>
+            </div>
+            <div class="item">
+                <img src="/img/pullup.jpg" height="100" width="150"><br>
+                <span>Pull Up</span>
+            </div>
+            
+            <div class="item">
+                <img src="/img/dips.jpg" height="100" width="150"><br>
+                <span>Dips</span>
+            </div>
+            <div class="item"></div>
+        </div>
+        <div id="container3">
+            <h1 id="title">Today Workout List</h1>
+            <ul id="workout-list"></ul>
+        </div>
+        <!-- <form id="login-form" class="hidden">
             <input id="name-box"
              required
              maxlength="15"
@@ -25,18 +67,15 @@
         <form id="todo-form">
             <input id="todo-box"type="text" placeholder="What is your main focus for today?" required>
         </form>
-        <ul id="todo-list"></ul>
-        <div id="quote">
-            <span></span>
-            <span> - </span>
-            <span></span>
-        </div>
+        <ul id="todo-list"></ul> -->
         
-        <script src="js/greetings.js"></script>
+        
+        <!-- <script src="js/greetings.js"></script> -->
+        <!-- <script src="js/background.js"></script> -->
+        <!-- <script src="js/todo.js"></script> -->
         <script src="js/clock.js"></script>
         <script src="js/quotes.js"></script>
-        <script src="js/background.js"></script>
-        <script src="js/todo.js"></script>
         <script src="js/weather.js"></script>
+        <script src="js/workoutlist.js"></script>
     </body>
 </html>

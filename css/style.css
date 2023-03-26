@@ -1,3 +1,43 @@
+#container1{
+    display: flex;
+    /* margin: 10px 10x 10px 10px; 상우하좌*/
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+#weather{
+    flex-grow: 1;
+    text-align: center;
+}
+#quote{
+    flex-grow: 3;
+    text-align: center;
+}
+#clock{
+    flex-grow: 1;
+    text-align: center;
+}
+
+#container2{
+    display: flex;
+    margin-bottom: 40px;
+}
+.item{
+    flex-grow: 1;
+    text-align: center;
+}
+img{
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+#container3{
+    text-align: center;
+}
+#title{
+    text-align: center;
+}
+
+/*
 @font-face {
     font-family: 'LINESeedKR-Bd';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
@@ -62,7 +102,7 @@ body{
     background-color:transparent;
 }
 #name-box:focus{
-    outline: none;   /* 아웃라인 지우기 */
+    outline: none;
     color: white;
 }
 #name-box::placeholder {
@@ -101,7 +141,7 @@ body{
     background-color:transparent;
 }
 #todo-box:focus{
-    outline: none;   /* 아웃라인 지우기 */
+    outline: none;  
     color: white;
 }
 #todo-box::placeholder {
@@ -127,7 +167,6 @@ body{
     color:white;
     text-align: center;
     font-weight:bolder;
-    /*margin-top:13%;*/
 }
 
 button{
@@ -141,4 +180,4 @@ button{
 
 .hidden {
     display: none;
-}
+}*/
