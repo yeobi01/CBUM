@@ -20,18 +20,25 @@ const workoutList = [
         'Leg Extension: 3sets',
         'Leg Curl: 3sets'
     ]
-]
+];
+const dayMapping = [-1, 0, 1, 2, 0, 1, 2];
 
-const date = new Date();
-const days = date.getDay() > 2 ? date.getDay() - 3 : date.getDay();
+const date2 = new Date();
+const days = dayMapping[date2.getDay()];
 
 const list = document.getElementById("workout-list");
 
-for(let i = 0; i < 5; i++){
-    let temp = document.createElement('li');
-    temp.innerText = workoutList[days].i;
-    list.appendClid(temp);
+if(days == -1){
+    const title = document.getElementById("title");
+    title.innerText = 'Today is a workout day off!';
+} else{
+    for(let i = 0; i < 5; i++){ 
+        let temp = document.createElement('li');
+        temp.innerText = workoutList[days][i];
+        list.appendChild(temp);
+    }
 }
+
 
 /*
 <ul>
