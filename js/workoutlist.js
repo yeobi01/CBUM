@@ -30,7 +30,7 @@ const list = document.getElementById("workout-list");
 
 if(days == -1){
     const title = document.getElementById("title");
-    title.innerText = 'Today is a workout day off!';
+    title.innerText = 'Workout Day OFF!';
 } else{
     for(let i = 0; i < 5; i++){ 
         let temp = document.createElement('li');

@@ -1,43 +1,43 @@
 const quotes = [
     {
-    quote: 'I never dreamed about success, I worked for it',
-    author: 'Estee Lauder'
+    quote: `\nSimple. If it shakes, it's fat.`,
+    author: 'Arnold Alois Schwarzenegger'
     },
     {
-    quote: 'Do not try to be original, just try to be good.',
-    author: 'Paul Rand'
+    quote: `\nIf you don't find the time, if you don't do the work, you don't get the results.`,
+    author: 'Arnold Alois Schwarzenegger'
     },
     {
-    quote: 'Do not be afraid to give up the good to go for the great',
-    author: 'John D. Rockefeller'
+    quote: '\nAnyone can be healthier and stronger. It merely requires dedication and effort.',
+    author: 'Lou Ferrigno'
     },
     {
-    quote: 'If you cannot fly then run. If you cannot run, then walk. And if you cannot walk, then crawl, but whatever you do, you have to keep moving forward.',
-    author: 'Martin Luther King Jr.'
+    quote: '\nTrue toughness is not measured by the size of your muscles,\n but by your ability to endure difficult situations and persevere to the end.',
+    author: 'Jay Cutler'
     },
     {
-    quote: 'Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.',
-    author: 'Thomas Edison'
+    quote: '\nNothing is impossible. You have not dreamed it yet.',
+    author: 'Frank Zane'
     },
     {
-    quote: 'The fastest way to change yourself is to hang out with people who are already the way you want to be',
-    author: 'REid Hoffman'
+    quote: `\nBodybuilding is not just about building a body, it's about building a philosophy of life.`,
+    author: 'Steve Reeves'
     },
     {
-    quote: 'Money is like gasoline during a road trip. You do not want to run out of gas on your trip, but you are not doing a tour of gas stations',
-    author: 'Tim O Reilly'
+    quote: '\nSuccess is the result of hard work and diligent effort.',
+    author: 'Ronnie Coleman'
     },
     {
-    quote: 'Some people dream of success, while other people get up every morning and make it happen',
-    author: 'Wayne Huizenga'
+    quote: '\nThe first step to changing yourself is getting up and moving.',
+    author: 'Kai Greene'
     },
     {
-    quote: 'The only thing worse than starting something and falling.. is not starting something',
-    author: 'SEth Godin'
+    quote: '\nWithout consistent effort and perseverance, it is difficult to achieve your goals.',
+    author: 'Phil Heath'
     },
     {
-    quote: 'If you really want to do something, you will find a way. If you do not, you will find an excuse.',
-    author: 'Jim Rohn'
+    quote: '\nTo achieve success in bodybuilding requires passion, sacrifice, and dedication.',
+    author: 'Rich Gaspari'
     }
 ];
 
@@ -45,4 +45,4 @@ const quote = document.querySelector("#quote");
 
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-quote.innerText = todaysQuote.quote + ' - ' + todaysQuote.author;
+quote.innerText = todaysQuote.quote + '\n - ' + todaysQuote.author;

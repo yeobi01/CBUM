@@ -4,21 +4,30 @@ body{
     -o-background-size: cover;
     background-size: cover;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #container1{
     display: flex;
     /* margin: 10px 10x 10px 10px; 상우하좌*/
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 100px;
+}
+#date{
+    font-size: 30px;
+}
+#time{
+    font-size: 70px;
 }
 #weather{
     flex-grow: 1;
     text-align: center;
+    font-size: 40px;
 }
 #quote{
     flex-grow: 3;
     text-align: center;
+    font-size: 30px;
 }
 #clock{
     flex-grow: 1;
@@ -27,7 +36,7 @@ body{
 
 #container2{
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .item{
     flex-grow: 1;
@@ -41,14 +50,29 @@ img{
 img:hover {
 	opacity: 0.9;
 }
-
+#wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #container3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 620px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px gray;
 }
 h1{
     margin-bottom: 0px;
+    font-size: 57px;
+    color: black;
+}
+#workout-list{
+    font-size: 30px;
+    color: black;
 }
 
 /*
