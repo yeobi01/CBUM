@@ -38,15 +38,3 @@ if(days == -1){
         list.appendChild(temp);
     }
 }
-
-
-/*
-<ul>
-    <li>목록1</li>
-    <li>목록2</li>
-    <li>목록3</li>
-    <ol>
-        <li>목록3-1</li>
-        <li>목록3-2</li>
-    </ol>
-</ul>*/

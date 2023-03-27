@@ -76,19 +76,6 @@ h1{
 }
 
 /*
-@font-face {
-    font-family: 'LINESeedKR-Bd';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-html{
-    height: 100%;
-}
-
-
-
 #clock{
     color:white;
     text-align: center;
@@ -107,7 +94,6 @@ html{
         font-size: 400%;
     }
 }
-
 #weather{
     font-size: 200%;
     color: white;
@@ -116,11 +102,9 @@ html{
     margin-right: 30px;
     font-weight: bold;
 }
-
 #login-form{
     text-align: center;
 }
-
 #name-box{
     color:white;
     width:400px;
@@ -141,7 +125,6 @@ html{
     color: white;
     text-align: center;
 }
-
 #submit-box{
     color:white;
     width:150px;
@@ -154,7 +137,6 @@ html{
     border-bottom : 3px solid white;
     background-color:transparent;
 }
-
 #todo-form{
     color:white;
     margin-top: 3%;
@@ -180,13 +162,11 @@ html{
     color: white;
     text-align: center;
 }
-
 #todo-list{
     color:white;
     text-align: center;
     font-size:30px;
 }
-
 #greeting{
     color:white;
     font-size:40px;
@@ -194,13 +174,11 @@ html{
     margin-top:0;
     margin-bottom:0;
 }
-
 #quote{
     color:white;
     text-align: center;
     font-weight:bolder;
 }
-
 button{
     width: 50px;
     height: 30px;
@@ -209,7 +187,7 @@ button{
     border: 3px solid white;
     border-radius: 5px;
 }
-
 .hidden {
     display: none;
-}*/
+}
+*/
