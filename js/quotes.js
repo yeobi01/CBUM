@@ -45,4 +45,4 @@ const quote = document.querySelector("#quote");
 
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
-quote.innerText = todaysQuote.quote + '\n - ' + todaysQuote.author;
+quote.innerText = todaysQuote.quote + '\n - ' + todaysQuote.author + ' -';
